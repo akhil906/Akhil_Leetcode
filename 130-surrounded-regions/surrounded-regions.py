@@ -25,6 +25,7 @@ class Solution:
         for r in range(rows):
                 for c in range(cols):
                     if board[r][c]== 'O' and (r in [0,rows-1] or c == 0 or c == cols-1):
+                        
                         dfs(r,c)
 
         
