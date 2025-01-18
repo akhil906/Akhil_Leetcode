@@ -11,9 +11,7 @@ class Solution:
         for i in range(len(s)):
             s1[s[i]]+=1
             t1[t[i]]+=1
-        
-        print(s1)
-        print(t1)
+
         if s1==t1:
             return True
         else:
